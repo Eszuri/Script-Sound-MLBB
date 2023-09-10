@@ -596,12 +596,12 @@ video {
   margin-top: 5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
-}
-
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .block {
@@ -638,6 +638,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-16 {
@@ -1016,6 +1020,16 @@ br {
   .dark\:text-black {
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .max-md\:w-full {
+    width: 100%;
   }
 }
 

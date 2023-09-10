@@ -39,13 +39,26 @@ export default function HeroDetail(props) {
           <div className='w-full bg-black mb-10 mt-1'>
             <iframe src={props.linkYT} className='w-full h-[80vh]' allowFullScreen></iframe>
           </div>
-          <h1 className='font-bold'>Link Download</h1>
-          <img src={bnkLogo} alt="download bnk" />
-          <ul className='mt-2 mb-2 text-green-500'>
-            <p className='mt-2'><span className='text-white font-bold'>Nama File:</span> <span className='text-lg'>{props.bnkFile}</span> </p>
-            <p className='mt-2'><span className='text-white font-bold'>Ukuran File :</span> <span className='text-lg'>{props.sizebnkFile}</span> </p>
-          </ul>
-          <a className='inline-block' href={props.bnkFile} download><img src={downloadLogo} alt='logo download' className='w-44' /></a>
+          <div className='w-full flex flex-wrap'>
+            <div className='w-1/2 max-md:w-full'>
+              <h1 className='font-bold'>Link Download {"(Script)"}</h1>
+              <img src={bnkLogo} alt="download bnk" />
+              <ul className='mt-2 mb-2 text-green-500'>
+                <p className='mt-2'><span className='text-white font-bold'>Nama File:</span> <span className='text-lg'>{props.bnkFile}</span> </p>
+                <p className='mt-2'><span className='text-white font-bold'>Ukuran File :</span> <span className='text-lg'>{props.sizebnkFile}</span> </p>
+              </ul>
+              <a className='inline-block' href={props.bnkFile} download><img src={downloadLogo} alt='logo download' className='w-44' /></a>
+            </div>
+            <div className='w-1/2 max-md:w-full max-md:mt-10'>
+              <h1 className='font-bold'>Link Download {"(File Backup)"}</h1>
+              <img src={bnkLogo} alt="download bnk" />
+              <ul className='mt-2 mb-2 text-green-500'>
+                <p className='mt-2'><span className='text-white font-bold'>Nama File:</span> <span className='text-lg'>{props.bnkFileBU}</span> </p>
+                <p className='mt-2'><span className='text-white font-bold'>Ukuran File :</span> <span className='text-lg'>{props.sizebnkFileBU}</span> </p>
+              </ul>
+              <a className='inline-block' href={props.bnkFileBU} download><img src={downloadLogo} alt='logo download' className='w-44' /></a>
+            </div>
+          </div>
           <footer className='text-center mt-20'>Dibuat Oleh <Link className='text-yellow-400 font-bold' target='_blank' to="https://youtube.com/@Eszuri">Eszuri</Link> pada tanggal <span className='font-extrabold'>9 Sepetember 2023</span></footer>
         </div>
       </div>

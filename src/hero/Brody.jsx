@@ -15,9 +15,11 @@ export default function Brody() {
                 skin3='⦿ Skin Starlight'
                 skin4='⦿ Skin MPL'
                 expired='Sampai update selanjutnya (mungkin)'
-                linkYT=''
-                bnkFile='sfx_2001.bnk'
-                sizebnkFile='287 KB'
+                linkYT='https://www.youtube.com/embed/9XG_nhvrBfI?si=fg8x0d9kNsf2wZx_'
+                bnkFile='Sound-Brody-TOT-AHhh.zip'
+                sizebnkFile='278 KB'
+                bnkFileBU='Sound-Brody-Original.zip'
+                sizebnkFileBU='304 KB'
             />
         </>
     )

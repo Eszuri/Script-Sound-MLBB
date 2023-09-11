@@ -37,10 +37,10 @@ export default function HeroDetail(props) {
           </ul>
           <h1 className='font-bold'>Video Lengkapnya</h1>
           <div className='w-full bg-black mb-10 mt-1'>
-            <iframe src={props.linkYT} className='w-full h-[80vh]' allowFullScreen></iframe>
+            <iframe src={props.linkYT} className='w-full h-[50vh]' allowFullScreen></iframe>
           </div>
-          <div className='w-full flex flex-wrap'>
-            <div className='w-1/2 max-md:w-full'>
+          <div className='w-full flex flex-wrap justify-between'>
+            <div className='w-[48%] max-md:w-full border-2 border-green-600 p-2'>
               <h1 className='font-bold'>Link Download {"(Script)"}</h1>
               <img src={bnkLogo} alt="download bnk" />
               <ul className='mt-2 mb-2 text-green-500'>
@@ -49,7 +49,7 @@ export default function HeroDetail(props) {
               </ul>
               <a className='inline-block' href={props.bnkFile} download><img src={downloadLogo} alt='logo download' className='w-44' /></a>
             </div>
-            <div className='w-1/2 max-md:w-full max-md:mt-10'>
+            <div className='w-[48%] max-md:w-full max-md:mt-10 border-2 border-green-600 p-2'>
               <h1 className='font-bold'>Link Download {"(File Backup)"}</h1>
               <img src={bnkLogo} alt="download bnk" />
               <ul className='mt-2 mb-2 text-green-500'>
@@ -59,7 +59,7 @@ export default function HeroDetail(props) {
               <a className='inline-block' href={props.bnkFileBU} download><img src={downloadLogo} alt='logo download' className='w-44' /></a>
             </div>
           </div>
-          <footer className='text-center mt-20'>Dibuat Oleh <Link className='text-yellow-400 font-bold' target='_blank' to="https://youtube.com/@Eszuri">Eszuri</Link> pada tanggal <span className='font-extrabold'>9 Sepetember 2023</span></footer>
+          <footer className='text-center mt-20'>Dibuat Oleh <Link className='text-yellow-400 font-bold' target='_blank' to="https://youtube.com/@Eszuri">Eszuri</Link> pada tanggal <span className='font-extrabold'>{props.dateMake}</span></footer>
         </div>
       </div>
     </>

@@ -7,7 +7,7 @@ export default function Change() {
         <>
             <Navigasi />
             <HeroDetail
-                namaHero="Hero - Brody"
+                namaHero="Hero - Change"
                 mod1='⦿ Ulti menjadi suara "SAURRRRRRRRRRRR" '
                 skin1='⦿ No Skin / Skin Basic'
                 skin2='⦿ Skin Elit'
@@ -15,11 +15,12 @@ export default function Change() {
                 skin4='⦿ Skin Starlight'
                 skin5='⦿ Skin Epic'
                 expired='Sampai update selanjutnya (mungkin)'
-                linkYT='https://www.youtube.com/embed/9XG_nhvrBfI?si=fg8x0d9kNsf2wZx_'
+                linkYT='https://www.youtube.com/embed/pFA_tnWxlnQ?si=Clme9hSrhgUPoWh3'
                 bnkFile='Ulti-Change-Saurrrrrr.zip'
                 sizebnkFile='390 KB'
                 bnkFileBU='Sound-Change-Original.zip'
                 sizebnkFileBU='386 KB'
+                dateMake='11 Sepetember 2023'
             />
         </>
     )

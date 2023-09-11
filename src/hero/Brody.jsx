@@ -20,6 +20,7 @@ export default function Brody() {
                 sizebnkFile='278 KB'
                 bnkFileBU='Sound-Brody-Original.zip'
                 sizebnkFileBU='304 KB'
+                dateMake='9 Sepetember 2023'
             />
         </>
     )

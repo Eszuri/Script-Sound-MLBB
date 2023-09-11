@@ -6,6 +6,7 @@ import Laporkan from './pages/Laporkan';
 import Request from './pages/Request';
 import FailedUrl from './components/FailedUrl';
 import Brody from './hero/Brody';
+import Change from './hero/Change';
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
 
         {/* hero  */}
         <Route path='/ireng' element={<Brody />} />
+        <Route path='/change' element={<Change />} />
         {/* hero End */}
       </Routes>
     </>
